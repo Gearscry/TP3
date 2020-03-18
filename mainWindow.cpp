@@ -11,6 +11,7 @@ mainWindow::mainWindow(QWidget *parent): QMainWindow(parent) {
     QVBoxLayout* mainLayout = new QVBoxLayout();
     this->slider = new QSlider(Qt::Horizontal);
     this->pBar = new QProgressBar();
+    connect(slider,SIGNAL(signalvalueChanged(int)),pBar,SLOT(slotSetValue(int)));
     mainLayout->addWidget(pBar);
     mainLayout->addWidget(slider);
     mainWidget->setLayout(mainLayout);

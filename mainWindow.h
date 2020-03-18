@@ -5,6 +5,7 @@
 #ifndef TP3_MAINWINDOW_H
 #define TP3_MAINWINDOW_H
 #include <QMainWindow>
+#include <QObject>
 #include <QLabel>
 #include <QProgressBar>
 #include <QSlider>
@@ -17,6 +18,11 @@ public:
 private:
     QProgressBar* pBar;
     QSlider* slider;
+
+    signals:
+    void signalValueChanged(int value);
+public slots:
+    void slotSetValue(int Value);
 };
 
 
