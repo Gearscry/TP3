@@ -123,6 +123,46 @@ TP3/fast:
 	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/build
 .PHONY : TP3/fast
 
+#=============================================================================
+# Target rules for targets named TP3_autogen
+
+# Build rule for target.
+TP3_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_autogen
+.PHONY : TP3_autogen
+
+# fast build rule for target.
+TP3_autogen/fast:
+	$(MAKE) -f CMakeFiles/TP3_autogen.dir/build.make CMakeFiles/TP3_autogen.dir/build
+.PHONY : TP3_autogen/fast
+
+TP3_autogen/mocs_compilation.o: TP3_autogen/mocs_compilation.cpp.o
+
+.PHONY : TP3_autogen/mocs_compilation.o
+
+# target to build an object file
+TP3_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.o
+.PHONY : TP3_autogen/mocs_compilation.cpp.o
+
+TP3_autogen/mocs_compilation.i: TP3_autogen/mocs_compilation.cpp.i
+
+.PHONY : TP3_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+TP3_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.i
+.PHONY : TP3_autogen/mocs_compilation.cpp.i
+
+TP3_autogen/mocs_compilation.s: TP3_autogen/mocs_compilation.cpp.s
+
+.PHONY : TP3_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+TP3_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.s
+.PHONY : TP3_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +190,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainWindow.o: mainWindow.cpp.o
+
+.PHONY : mainWindow.o
+
+# target to build an object file
+mainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow.cpp.o
+.PHONY : mainWindow.cpp.o
+
+mainWindow.i: mainWindow.cpp.i
+
+.PHONY : mainWindow.i
+
+# target to preprocess a source file
+mainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow.cpp.i
+.PHONY : mainWindow.cpp.i
+
+mainWindow.s: mainWindow.cpp.s
+
+.PHONY : mainWindow.s
+
+# target to generate assembly for a file
+mainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow.cpp.s
+.PHONY : mainWindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +226,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TP3"
+	@echo "... TP3_autogen"
+	@echo "... TP3_autogen/mocs_compilation.o"
+	@echo "... TP3_autogen/mocs_compilation.i"
+	@echo "... TP3_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainWindow.o"
+	@echo "... mainWindow.i"
+	@echo "... mainWindow.s"
 .PHONY : help
 
 

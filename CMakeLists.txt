@@ -2,5 +2,9 @@ cmake_minimum_required(VERSION 3.15)
 project(TP3)
 
 set(CMAKE_CXX_STANDARD 17)
-
-add_executable(TP3 main.cpp)
+set(Qt5_DIR "~/Qt/5.14.1/clang_64/lib/cmake/Qt5")
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
+add_executable(TP3 main.cpp mainWindow.cpp)
+target_link_libraries(TP3 Qt5::Core Qt5::Widgets)

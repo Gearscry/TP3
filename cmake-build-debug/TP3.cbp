@@ -5,7 +5,7 @@
 		<Option title="TP3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt\;CMake Files\..\..\..\Qt\5.14.1\;CMake Files\..\..\..\Qt\5.14.1\clang_64\;CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\;CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\;CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\;CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug"/>
@@ -44,6 +44,20 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug"/>
+					<Add directory="/Users/sebastien/CLionProjects/QT/TP3"/>
+					<Add directory="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/TP3_autogen/include"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -65,6 +79,20 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug"/>
+					<Add directory="/Users/sebastien/CLionProjects/QT/TP3"/>
+					<Add directory="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/TP3_autogen/include"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -79,12 +107,136 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TP3_autogen">
+				<Option working_dir="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP3_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/TP3_autogen/mocs_compilation.cpp">
+			<Option target="TP3"/>
+		</Unit>
 		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/main.cpp">
+			<Option target="TP3"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow.cpp">
+			<Option target="TP3"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow.h">
 			<Option target="TP3"/>
 		</Unit>
 		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/../../../Qt/5.14.1/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.14.1\clang_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
