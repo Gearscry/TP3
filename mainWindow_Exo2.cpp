@@ -1,4 +1,5 @@
 #include "mainWindow_Exo2.h"
+#include "mainWindow_Exo1.h"
 #include <QVBoxLayout>
 #include <QtWidgets>
 #include <QString>
