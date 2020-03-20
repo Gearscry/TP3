@@ -28,10 +28,13 @@ mainWindow_Exo2::mainWindow_Exo2(QWidget *parent): QMainWindow(parent) {
 void mainWindow_Exo2::nameButton() {
     button->setText("Example");
     value++;
-    QString valeur = QString::number(value);
-    QString texte = "Example "+ valeur + "\n" + textEdit->toPlainText();
-    cout << "Example " << value << endl;
-    textEdit->setText(texte);
+//    QString valeur = QString::number(value);
+//    QString texte = "Example "+ valeur + "\n" + textEdit->toPlainText();
+//    cout << "Example " << value << endl;
+//    textEdit->setText(texte);
+
+    textEdit->insertPlainText(QString("Eemple %1 \n").arg(value));
+
 }
 
 void mainWindow_Exo2::showExo1() {
