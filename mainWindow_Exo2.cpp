@@ -17,8 +17,8 @@ mainWindow_Exo2::mainWindow_Exo2(QWidget *parent): QMainWindow(parent) {
     mainWidget->setLayout(mainLayout);
     this->setCentralWidget(mainWidget);
     //connect(button,SIGNAL(clicked()), qApp,SLOT(quit()));//Ferme la fenêtre
-    connect(button,SIGNAL(clicked()),this,SLOT(nameButton()));//Change le nom du boutton
-    //connect(button,SIGNAL(clicked()),this,SLOT(showExo1()));//Fais apparaître l'exo1
+    //connect(button,SIGNAL(clicked()),this,SLOT(nameButton()));//Change le nom du boutton
+    connect(button,SIGNAL(clicked()),this,SLOT(showExo1()));//Fais apparaître l'exo1
 }
 
 void mainWindow_Exo2::nameButton() {
