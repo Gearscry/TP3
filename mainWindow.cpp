@@ -10,10 +10,16 @@ mainWindow::mainWindow(QWidget *parent): QMainWindow(parent) {
     QWidget* mainWidget = new QWidget();
     QVBoxLayout* mainLayout = new QVBoxLayout();
     this->slider = new QSlider(Qt::Horizontal);
+    slider->setRange(0,100);
+    slider->setValue(0);
+    slider->setGeometry(10,40,180,30);
     this->pBar = new QProgressBar();
-    connect(slider,SIGNAL(signalvalueChanged(int)),pBar,SLOT(slotSetValue(int)));
+    pBar->setRange(0,100);
+    pBar->setValue(0);
+    pBar->setGeometry(10,10,180,30);
     mainLayout->addWidget(pBar);
     mainLayout->addWidget(slider);
     mainWidget->setLayout(mainLayout);
     this->setCentralWidget(mainWidget);
+    connect(slider,SIGNAL(valueChanged(int)),pBar,SLOT(setValue(int)));
 }

@@ -18,11 +18,6 @@ public:
 private:
     QProgressBar* pBar;
     QSlider* slider;
-
-    signals:
-    void signalValueChanged(int value);
-public slots:
-    void slotSetValue(int Value);
 };
 
 
