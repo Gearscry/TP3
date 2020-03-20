@@ -7,6 +7,8 @@
 #include <QVBoxLayout>
 #include <QtWidgets>
 #include <QString>
+#include <iostream>
+using namespace std;
 mainWindow_Exo2::mainWindow_Exo2(QWidget *parent): QMainWindow(parent) {
     this->setWindowTitle("Exercice 2");
     this->setMinimumWidth(500);
@@ -19,8 +21,8 @@ mainWindow_Exo2::mainWindow_Exo2(QWidget *parent): QMainWindow(parent) {
     mainWidget->setLayout(mainLayout);
     this->setCentralWidget(mainWidget);
     //connect(button,SIGNAL(clicked()), qApp,SLOT(quit()));//Ferme la fenêtre
-    //connect(button,SIGNAL(clicked()),this,SLOT(nameButton()));//Change le nom du boutton
-    connect(button,SIGNAL(clicked()),this,SLOT(showExo1()));//Fais apparaître l'exo1
+    connect(button,SIGNAL(clicked()),this,SLOT(nameButton()));//Change le nom du boutton
+    //connect(button,SIGNAL(clicked()),this,SLOT(showExo1()));//Fais apparaître l'exo1
 }
 
 void mainWindow_Exo2::nameButton() {
@@ -28,6 +30,7 @@ void mainWindow_Exo2::nameButton() {
     value++;
     QString valeur = QString::number(value);
     QString texte = "Example "+ valeur + "\n" + textEdit->toPlainText();
+    cout << "Example " << value << endl;
     textEdit->setText(texte);
 }
 
