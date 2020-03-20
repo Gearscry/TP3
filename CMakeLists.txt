@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.7.2)
 project(TP3)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 set(Qt5_DIR "~/Qt/5.14.1/clang_64/lib/cmake/Qt5")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)

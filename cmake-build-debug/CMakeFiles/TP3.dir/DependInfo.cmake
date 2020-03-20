@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/TP3_autogen/mocs_compilation.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.o"
-  "/Users/sebastien/CLionProjects/QT/TP3/main.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/main.cpp.o"
-  "/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o"
-  "/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o"
+  "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/cmake-build-debug/TP3_automoc.cpp" "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/cmake-build-debug/CMakeFiles/TP3.dir/TP3_automoc.cpp.o"
+  "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/main.cpp" "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/cmake-build-debug/CMakeFiles/TP3.dir/main.cpp.o"
+  "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/mainWindow_Exo1.cpp" "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o"
+  "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/mainWindow_Exo2.cpp" "/mnt/c/Users/utilisateur/Documents/GitHub/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -22,15 +22,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
-  "TP3_autogen/include"
-  "/Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework"
-  "/Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework/Headers"
-  "/Users/sebastien/Qt/5.14.1/clang_64/./mkspecs/macx-clang"
-  "/Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework"
-  "/Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework/Headers"
-  "/Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework"
-  "/Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework/Headers"
-  "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   )
 
 # Targets to which this target links.
