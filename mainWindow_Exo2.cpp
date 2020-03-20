@@ -1,7 +1,3 @@
-//
-// Created by Sébastien Demousselle on 20/03/2020.
-//
-
 #include "mainWindow_Exo2.h"
 #include "mainWindow_Exo1.h"
 #include <QVBoxLayout>
@@ -28,18 +24,12 @@ mainWindow_Exo2::mainWindow_Exo2(QWidget *parent): QMainWindow(parent) {
 void mainWindow_Exo2::nameButton() {
     button->setText("Example");
     value++;
-//    QString valeur = QString::number(value);
-//    QString texte = "Example "+ valeur + "\n" + textEdit->toPlainText();
-//    cout << "Example " << value << endl;
-//    textEdit->setText(texte);
-
-    textEdit->insertPlainText(QString("Eemple %1 \n").arg(value));
+    textEdit->insertPlainText(QString("Exemple %1 \n").arg(value));
 
 }
 
 void mainWindow_Exo2::showExo1() {
-        mainWindow_Exo1* window = new mainWindow_Exo1();
-        window->show();
-        this->hide();
+    mainWindow_Exo1* window = new mainWindow_Exo1();
+    window->show();
+    this->hide();
 }
-
