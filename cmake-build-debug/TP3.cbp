@@ -124,10 +124,16 @@
 		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/main.cpp">
 			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow.cpp">
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.cpp">
 			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow.h">
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.h">
+			<Option target="TP3"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.cpp">
+			<Option target="TP3"/>
+		</Unit>
+		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.h">
 			<Option target="TP3"/>
 		</Unit>
 		<Unit filename="/Users/sebastien/CLionProjects/QT/TP3/CMakeLists.txt">

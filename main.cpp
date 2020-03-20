@@ -1,10 +1,11 @@
 #include <iostream>
 #include <QApplication>
-#include "mainWindow.h"
+#include <QPushButton>
+#include "mainWindow_Exo2.h"
 
 int main(int argc, char** argv){
     QApplication app(argc,argv);
-    mainWindow window;
+    mainWindow_Exo2 window;
     window.show();
     return app.exec();
 }

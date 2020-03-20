@@ -190,32 +190,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainWindow.o: mainWindow.cpp.o
+mainWindow_Exo1.o: mainWindow_Exo1.cpp.o
 
-.PHONY : mainWindow.o
+.PHONY : mainWindow_Exo1.o
 
 # target to build an object file
-mainWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow.cpp.o
-.PHONY : mainWindow.cpp.o
+mainWindow_Exo1.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o
+.PHONY : mainWindow_Exo1.cpp.o
 
-mainWindow.i: mainWindow.cpp.i
+mainWindow_Exo1.i: mainWindow_Exo1.cpp.i
 
-.PHONY : mainWindow.i
+.PHONY : mainWindow_Exo1.i
 
 # target to preprocess a source file
-mainWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow.cpp.i
-.PHONY : mainWindow.cpp.i
+mainWindow_Exo1.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.i
+.PHONY : mainWindow_Exo1.cpp.i
 
-mainWindow.s: mainWindow.cpp.s
+mainWindow_Exo1.s: mainWindow_Exo1.cpp.s
 
-.PHONY : mainWindow.s
+.PHONY : mainWindow_Exo1.s
 
 # target to generate assembly for a file
-mainWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow.cpp.s
-.PHONY : mainWindow.cpp.s
+mainWindow_Exo1.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.s
+.PHONY : mainWindow_Exo1.cpp.s
+
+mainWindow_Exo2.o: mainWindow_Exo2.cpp.o
+
+.PHONY : mainWindow_Exo2.o
+
+# target to build an object file
+mainWindow_Exo2.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o
+.PHONY : mainWindow_Exo2.cpp.o
+
+mainWindow_Exo2.i: mainWindow_Exo2.cpp.i
+
+.PHONY : mainWindow_Exo2.i
+
+# target to preprocess a source file
+mainWindow_Exo2.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.i
+.PHONY : mainWindow_Exo2.cpp.i
+
+mainWindow_Exo2.s: mainWindow_Exo2.cpp.s
+
+.PHONY : mainWindow_Exo2.s
+
+# target to generate assembly for a file
+mainWindow_Exo2.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3.dir/build.make CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.s
+.PHONY : mainWindow_Exo2.cpp.s
 
 # Help Target
 help:
@@ -233,9 +260,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainWindow.o"
-	@echo "... mainWindow.i"
-	@echo "... mainWindow.s"
+	@echo "... mainWindow_Exo1.o"
+	@echo "... mainWindow_Exo1.i"
+	@echo "... mainWindow_Exo1.s"
+	@echo "... mainWindow_Exo2.o"
+	@echo "... mainWindow_Exo2.i"
+	@echo "... mainWindow_Exo2.s"
 .PHONY : help
 
 

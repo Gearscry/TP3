@@ -83,37 +83,52 @@ CMakeFiles/TP3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sebastien/CLionProjects/QT/TP3/main.cpp -o CMakeFiles/TP3.dir/main.cpp.s
 
-CMakeFiles/TP3.dir/mainWindow.cpp.o: CMakeFiles/TP3.dir/flags.make
-CMakeFiles/TP3.dir/mainWindow.cpp.o: ../mainWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP3.dir/mainWindow.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3.dir/mainWindow.cpp.o -c /Users/sebastien/CLionProjects/QT/TP3/mainWindow.cpp
+CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o: CMakeFiles/TP3.dir/flags.make
+CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o: ../mainWindow_Exo2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o -c /Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.cpp
 
-CMakeFiles/TP3.dir/mainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3.dir/mainWindow.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sebastien/CLionProjects/QT/TP3/mainWindow.cpp > CMakeFiles/TP3.dir/mainWindow.cpp.i
+CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.cpp > CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.i
 
-CMakeFiles/TP3.dir/mainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3.dir/mainWindow.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sebastien/CLionProjects/QT/TP3/mainWindow.cpp -o CMakeFiles/TP3.dir/mainWindow.cpp.s
+CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.cpp -o CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.s
+
+CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o: CMakeFiles/TP3.dir/flags.make
+CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o: ../mainWindow_Exo1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o -c /Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.cpp
+
+CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.cpp > CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.i
+
+CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.cpp -o CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.s
 
 # Object files for target TP3
 TP3_OBJECTS = \
 "CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/TP3.dir/main.cpp.o" \
-"CMakeFiles/TP3.dir/mainWindow.cpp.o"
+"CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o" \
+"CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o"
 
 # External object files for target TP3
 TP3_EXTERNAL_OBJECTS =
 
 TP3: CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.o
 TP3: CMakeFiles/TP3.dir/main.cpp.o
-TP3: CMakeFiles/TP3.dir/mainWindow.cpp.o
+TP3: CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o
+TP3: CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o
 TP3: CMakeFiles/TP3.dir/build.make
 TP3: /Users/sebastien/Qt/5.14.1/clang_64/lib/QtWidgets.framework/QtWidgets
 TP3: /Users/sebastien/Qt/5.14.1/clang_64/lib/QtGui.framework/QtGui
 TP3: /Users/sebastien/Qt/5.14.1/clang_64/lib/QtCore.framework/QtCore
 TP3: CMakeFiles/TP3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TP3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TP3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -2,18 +2,18 @@
 // Created by Sébastien Demousselle on 18/03/2020.
 //
 
-#ifndef TP3_MAINWINDOW_H
-#define TP3_MAINWINDOW_H
+#ifndef TP3_MAINWINDOW_EXO1_H
+#define TP3_MAINWINDOW_EXO1_H
 #include <QMainWindow>
 #include <QObject>
 #include <QLabel>
 #include <QProgressBar>
 #include <QSlider>
 
-class mainWindow: public QMainWindow{
+class mainWindow_Exo1: public QMainWindow{
 Q_OBJECT;
 public:
-    mainWindow(QWidget* parent = nullptr);
+    mainWindow_Exo1(QWidget* parent = nullptr);
 
 private:
     QProgressBar* pBar;
@@ -21,4 +21,4 @@ private:
 };
 
 
-#endif //TP3_MAINWINDOW_H
+#endif //TP3_MAINWINDOW_EXO1_H

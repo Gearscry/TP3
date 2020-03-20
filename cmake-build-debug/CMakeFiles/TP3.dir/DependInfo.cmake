@@ -6,7 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/TP3_autogen/mocs_compilation.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/TP3_autogen/mocs_compilation.cpp.o"
   "/Users/sebastien/CLionProjects/QT/TP3/main.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/main.cpp.o"
-  "/Users/sebastien/CLionProjects/QT/TP3/mainWindow.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow.cpp.o"
+  "/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo1.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow_Exo1.cpp.o"
+  "/Users/sebastien/CLionProjects/QT/TP3/mainWindow_Exo2.cpp" "/Users/sebastien/CLionProjects/QT/TP3/cmake-build-debug/CMakeFiles/TP3.dir/mainWindow_Exo2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

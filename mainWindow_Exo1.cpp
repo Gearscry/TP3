@@ -2,9 +2,9 @@
 // Created by Sébastien Demousselle on 18/03/2020.
 //
 
-#include "mainWindow.h"
+#include "mainWindow_Exo1.h"
 #include <QVBoxLayout>
-mainWindow::mainWindow(QWidget *parent): QMainWindow(parent) {
+mainWindow_Exo1::mainWindow_Exo1(QWidget *parent): QMainWindow(parent) {
     this->setWindowTitle("Exercice 1");
     this->setMinimumWidth(500);
     QWidget* mainWidget = new QWidget();
